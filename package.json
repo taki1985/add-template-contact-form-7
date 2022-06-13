@@ -13,7 +13,6 @@
     "copy": "npm-run-all -p copy/*",
     "watch/copy": "watch 'npm run copy' ./src/",
     "js/babel": "babel ./src/js/index.js --out-file ../../../plugins/add-template-for-contact-form-7/assets/index.js --compact=true",
-    "js/webpack": "cross-env BABEL_ENV=default webpack",
     "js": "npm-run-all -p js/*",
     "watch/js": "watch 'npm run js' ./src/",
     "sass/style": "sass src/sass/style.scss:../../../plugins/add-template-for-contact-form-7/assets/style.css --no-source-map",

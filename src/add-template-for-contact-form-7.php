@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Add Template for Contact Form 7
  * Plugin URI:
- * Description: Add template function to contact form 7.
+ * Description: This plugin adds a template function to "Contact Form 7" using a template file.
  * Version: 1.0.0
  * Author: matorel
  * License: GPL2
@@ -102,7 +102,7 @@ class ATCF7
   {
     echo "<p>" . esc_html_e('If you have set a template file, you cannot change the form from the management screen.', 'add-template-for-contact-form-7') . "</p>";
     $panels['custom-fields'] = array(
-      'title' => esc_html_e('Template file', 'add-template-for-contact-form-7'),
+      'title' => __('Template file', 'add-template-for-contact-form-7'),
       'callback' => 'atcf7_add_wpcf7_panel_content',
     );
     return $panels;
