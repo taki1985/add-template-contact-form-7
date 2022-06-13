@@ -1,18 +1,4 @@
-# stile-blocks
-
-## 開発環境
-
-npm-scripts を使用してください。
-
-Node.js のバージョンは 10 系にしてください。最新のバージョンだと動かない可能性があります。
-
-プロジェクトフォルダに WordPress フォルダを配置してください。
-
-[WordPress.org](https://wordpress.org/)
-
-WordPress のフォルダ名は`wp`にしてください。
-
-`wp`フォルダと`src`フォルダは同じ階層にしてください。
+# Add Template for Contact Form 7
 
 ## CSS（SCSS）の記述
 
