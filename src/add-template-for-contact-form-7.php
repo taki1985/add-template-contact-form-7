@@ -2,9 +2,9 @@
 
 /**
  * Plugin Name: Add Template for Contact Form 7
- * Plugin URI:
+ * Plugin URI: https://matorel.com/?p=1255
  * Description: This plugin adds a template function to "Contact Form 7" using a template file.
- * Version: 1.0.0
+ * Version: 1.0.3
  * Author: matorel
  * License: GPL2
  * Text Domain: add-template-for-contact-form-7
@@ -33,7 +33,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 defined('ABSPATH') || exit;
 
-define('ATCF7_VERSION', '1.0.0');
+define('ATCF7_VERSION', '1.0.3');
 define('ATCF7_PATH', plugin_dir_path(__FILE__));
 define('ATCF7_URL', plugins_url('/', __FILE__));
 

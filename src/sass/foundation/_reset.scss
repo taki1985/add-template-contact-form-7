@@ -1,8 +1,8 @@
 /*** The new CSS reset - version 1.5.1 (last updated 1.3.2022) ***/
 .atcf7-form-table {
   *:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
-    all: unset;
-    display: revert;
+    // all: unset;
+    // display: revert;
   }
   *,
   *::before,

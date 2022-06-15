@@ -9,3 +9,6 @@ CSS は BEM で記述をしてください。
 基本的には`common-style.scss`内に書いていきますが、エディターのみに CSS を適用したい場合は`editor.scss`内に記述してください。
 
 class 名には`atcf7-`というプレフィックスを入れてください。
+
+CF7 から提供されている hook は
+includes/contact-from.php > construct_properties >　 wpcf7_contact_form_property\*{$name}
